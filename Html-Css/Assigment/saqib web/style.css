@@ -1,0 +1,14 @@
+.con {
+  display: grid;
+  grid-template-columns: 4 , 1fr  ;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(212, 212, 212);
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("Total marks 300");
+
+      var userInput = +prompt("Enter The Number");
+      var totalMarks = 300;
+      var grade = "Faile";
+      var remarks = "sorry";
+
+      if (userInput <= totalMarks && userInput > 0) {
+        var prcnt = (userInput / totalMarks) * 100;
+        if (prcnt > 80) {
+          grade = "A-one";
+          remarks = "Exlelant";
+        } else if (prcnt > 70) {
+          grade = "A";
+          remarks = "Good";
+        } else if (prcnt > 60) {
+          grade = "B";
+          remarks = "You need to improve";
+        }
+        alert("Total Number: " + totalMarks);
+        alert("Obtained Number: " + userInput);
+        alert("Percentage: " + prcnt + "%");
+        alert("Grade: " + grade);
+        alert("Remakes: " + remarks);
+      } else {
+        alert("Enter number between 0 to 300");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0PX;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #2b2b2b;
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.head-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70px;
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+}
+
+.head-btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70px;
+}
+
+.btn {
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+
+    background-color: #9747ff;
+}
+
+.sign-up {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #9747ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container-01 {
+    padding-top: 70px;
+    /* padding-bottom: 50px; */
+    background-color: #2b2b2b;
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+.child-text-main {
+    width: 50%;
+    height: 700px;
+}
+
+.child-text {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 250px;
+}
+
+.text {
+    margin-left: 100px;
+}
+
+.child-pragraph {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.child-pragraph p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.get-start-main {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 80px;
+}
+
+.get-start {
+    background-color: #9747ff;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa-shuttle-space {
+    color: rgb(255, 255, 255);
+}
+
+.number-main {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.child-img-main {
+    padding: 60px;
+    width: 50%;
+    height: 700px;
+}
+
+.child-img {
+    margin-left: 30px;
+    width: 80%;
+    height: 600px;
+}

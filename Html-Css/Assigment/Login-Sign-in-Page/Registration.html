@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+  </head>
+
+  <body>
+
+   <a href="./index.html"> <img src="./picture/previous.png" alt="" id="previous"></a>
+    <center>
+      <img src="./logo.png" alt="" id="logo" width="15%" />
+
+      <h2>STUDENT REGISTRATION FORM</h2>
+
+      <form action="#">
+        <table id="main">
+          <tr>
+            <td>FIRST NAME:</td>
+            <td>
+              <input
+                placeholder="Enter the First Name"
+                type="text"
+                maxlength="30"
+              />
+              (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+
+          <tr>
+            <td>LAST NAME:</td>
+            <td>
+              <input
+                placeholder="Enter the Last Name"
+                type="text"
+                maxlength="30"
+              />
+              (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+
+          <tr>
+            <td>DATE OF BIRTH</td>
+            <td>
+              <input type="date" name="" id="" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>EMAIL ID</td>
+            <td>
+              <input placeholder="Enter the Email Address" type="email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>MOBILE NUMBER</td>
+            <td>
+              <input
+                placeholder="Enter your mobile Number"
+                type="number"
+                maxlength="10"
+              />
+              (10 Digits Numbers)
+            </td>
+          </tr>
+
+          <tr>
+            <td>GENDER</td>
+            <td>
+              <form action="">
+                <input type="radio" name="gender" id="f" />
+                <label for="f">Male</label>
+                <input type="radio" name="gender" id="g" />
+                <label for="g">Female</label>
+              </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>ADDRESS</td>
+            <td>
+              <textarea name="" rows="5" cols="40" id="" ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>CITY</td>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter your City Name"
+                maxlength="30"
+              />
+              (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+
+          <tr>
+            <td>PIN CODE</td>
+            <td>
+              <input
+                type="number"
+                placeholder="Enter your Pin Code"
+                maxlength="6"
+                minlength="6"
+              />
+              (6 Digits Numbers)
+            </td>
+          </tr>
+
+          <tr>
+            <td>STATE</td>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter your State"
+                maxlength="30"
+              />
+              (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+
+          <tr>
+            <td>COUNTRY</td>
+            <td>
+              <input type="text" placeholder="Enter your Country Name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>HOBBIES</td>
+            <td>
+              <label for="">Sketching</label>
+              <input type="checkbox" name="hobby" id="" />
+
+              <label for="">Programming</label>
+              <input type="checkbox" name="hobby" id="" />
+
+              <label for="">Travling</label>
+              <input type="checkbox" name="hobby" id="" />
+
+              <label for="">Drawing</label>
+              <input type="checkbox" name="hobby" id="" /><br>
+
+              <label for="">Other</label>
+              <input type="checkbox" name="hobby" id="" />
+              <input type="text" />
+            </td>
+          </tr>
+
+          <tr id="qualification">
+            <td>QUALIFICATION</td>
+            <td>
+              <table>
+                <tr>
+                  <th>SI.No.</th>
+                  <th>Examination</th>
+                  <th>Board</th>
+                  <th>Percentage</th>
+                  <th>Year of passing</th>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>Class X</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td>Class XII</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td>Graduation</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+
+                <tr>
+                  <td>4</td>
+                  <td>Master</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <br />
+
+          <tr>
+            <td>COURSES APPLIED FOR</td>
+            <td>
+              <select name="" id="">
+                <option value=" " disabled selected>Select any course</option>
+                <option value="">BCA</option>
+                <option value="">B.A</option>
+                <option value="">B.Sc</option>
+                <option value="">B.Com</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Upload your picture <br />
+              (only .png, .jpg, .jpeg formats allow)
+            </td>
+            <td>
+              <input type="file" name="" id="" accept=".png , .jpg , .jpeg" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">
+              <button id="Submit" >Submit</button>
+              <button id="Reset"type="reset">Reset</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
